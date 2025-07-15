@@ -17,9 +17,13 @@ function createCard(contact) {
 function App() {
 
   return (
-    <div className="container">
-      {contacts.map(createCard)}
+    <div className="flex justify-center items-center">
+
+      <h1 className="text-3xl text-red-600 font-bold underline ">    Hello tailwind!  </h1>
     </div>
+    // <div className="container">
+    //   {contacts.map(createCard)}
+    // </div>
   )
 }
 
